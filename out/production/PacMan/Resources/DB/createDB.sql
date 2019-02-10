@@ -1,0 +1,9 @@
+CREATE TABLE User
+(userName VARCHAR(50) NOT NULL PRIMARY KEY,
+ score INT NOT NULL,
+ resultDate DATE  NOT NULL,
+ resultTime TIME NOT NULL);
+
+
+INSERT INTO User VALUES
+('yolo', 10, '2002-10-20', '12:00:00');

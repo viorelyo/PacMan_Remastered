@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="304.0" prefWidth="530.0" xmlns="http://javafx.com/javafx/8.0.181" xmlns:fx="http://javafx.com/fxml/1" fx:controller="general.Controller.IntroCtrl">
+  <children>
+    <AnchorPane maxHeight="312.0" maxWidth="539.0" prefHeight="312.0" prefWidth="539.0" VBox.vgrow="ALWAYS">
+      <children>
+        <Label fx:id="nrGhostsLbl" alignment="CENTER" layoutX="92.0" layoutY="185.0" style="&#10;" text="How many Ghosts? " textAlignment="CENTER" textFill="#9f9f9f" wrapText="false">
+          <font>
+            <Font size="18.0" />
+          </font>
+        </Label>
+            <ComboBox fx:id="nrGhostCombo" layoutX="310.0" layoutY="186.0" prefHeight="26.0" prefWidth="90.0" />
+            <ImageView fitHeight="105.0" fitWidth="375.0" layoutX="78.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Resources/images/Pac_man_logo.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="startBtn" layoutX="196.0" layoutY="250.0" mnemonicParsing="false" onMouseClicked="#onStartClicked" prefHeight="39.0" prefWidth="142.0" text="START" textFill="#e50012">
+               <font>
+                  <Font name="SF Pixelate" size="18.0" />
+               </font>
+            </Button>
+            <Label fx:id="usernameLbl" layoutX="92.0" layoutY="131.0" text="Username" textFill="#9f9f9f">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <TextField fx:id="usrNameTextField" layoutX="254.0" layoutY="131.0" prefHeight="34.0" prefWidth="190.0">
+            </TextField>
+            <ProgressIndicator fx:id="databaseActivityIndicator" layoutX="230.0" layoutY="147.0" prefHeight="70.0" prefWidth="70.0" progress="0.0" />
+            <ImageView fx:id="warnImg" fitHeight="26.0" fitWidth="26.0" layoutX="461.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Resources/images/warn.png" />
+               </image>
+            </ImageView>
+      </children>
+    </AnchorPane>
+  </children>
+</VBox>

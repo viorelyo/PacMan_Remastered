@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PacMan:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PacMan_jar</output-path>
+    <root id="archive" name="PacMan.jar">
+      <element id="module-output" name="PacMan" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jars/db2jcc4.jar" path-in-jar="/" />
+      <element id="file-copy" path="$PROJECT_DIR$/jars/db2jcc4.jar" />
+    </root>
+  </artifact>
+</component>
