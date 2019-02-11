@@ -1,4 +1,4 @@
-<img src="/screenshots/pacmanico.ico" width="128">
+<p align="center"><img src="/screenshots/pacmanico.ico" width="100"></p>
 
 # PacMan_Remastered
 Remastered version of PacMan in JavaFX
@@ -7,9 +7,12 @@ Remastered version of PacMan in JavaFX
 PacMan is immortal. This is a brand new PacMan with some little changes in scenario.  
 The game stores the scores of all players in an online database ( `IBM DB2` )  
 People from all over the world can try to beat each other's record. 🔥   
-P.S. `.EXE` included 🤩
+P.S. `.EXE` included 🤩  
+
+</br>
 
 <img src="/screenshots/screenshot1.PNG" width="500">
+
 
 ## Prerequisites
 * IntelliJ IDEA
@@ -30,8 +33,8 @@ All Jars are included
 ## Demo
 Simple gameplay
 
-<img src="/screenshots/gif1.gif" width="700">
+<img src="/screenshots/gif1.gif" width="600">
 
 `Top 10` players are shown in a ranking table
 
-<img src="/screenshots/gif2.gif" width="700">
+<img src="/screenshots/gif2.gif" width="600">
